@@ -16,7 +16,7 @@ public class removeDuplicates {
 
 	public static void main (String [] args) {
 	
-		ArrayList list = new ArrayList();
+		ArrayList<String>list = new ArrayList("king", "king2", "king3");
 				
 		System.out.println("The list before : " + list);
 
