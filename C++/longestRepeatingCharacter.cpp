@@ -5,11 +5,11 @@
 // Find the longest repeating character in a sorted string.
 
 #include <iostream>
+#include <string>
 using namespace std;
 
 int main()
 {
-
 
 
 

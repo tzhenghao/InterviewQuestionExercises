@@ -1,4 +1,4 @@
-// Zheng Hao Tan
+// Name: Zheng Hao Tan
 // Email: tanzhao@umich.edu
 // Date: 3/5/2014
 
@@ -17,6 +17,7 @@
 #include <vector>
 using namespace std;
 
+// Prototypes.
 int calcPow(vector<int> &OneDPowArray, int b);
 int calcPowHelper(vector<int> &OneDPowArray, int b);
 
