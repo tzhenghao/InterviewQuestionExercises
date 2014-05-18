@@ -12,14 +12,28 @@
 
 // Because the values will be sorted, all of the duplicates will be grouped together.
 
-public static void removeDuplicates(ArrayList<String> list)
-{
-    for (int i = 0; i < list.size() -1; i++)
-    {
-        if (list.get(i) == list.get(i + 1))
-        {
-            list.remove(i + 1);
-            i--;
-        }
-    }
+public class removeDuplicates {
+
+	public static void main (String [] args) {
+	
+		ArrayList list = new ArrayList();
+				
+		System.out.println("The list before : " + list);
+
+		removingDuplicates(list);
+		
+		System.out.println("The list after : " + list);
+	}
+
+	public static void removingDuplicates(ArrayList<String> list)
+	{
+	    for (int i = 0; i < list.size() -1; i++)
+	    {
+	        if (list.get(i) == list.get(i + 1))
+	        {
+	            list.remove(i + 1);
+	            i--;
+	        }
+	    }
+	}
 }

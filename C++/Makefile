@@ -35,7 +35,20 @@ powFunction: powFunction.o
 powFunction.o: powFunction.cpp
 	g++ $(FLAGS) -c powFunction.cpp
 
+oneEditApart: oneEditApart.o
+	g++ $(FLAGS) oneEditApart.o -o oneEditApart
+
+oneEditApart.o: oneEditApart.cpp
+	g++ $(FLAGS) -c oneEditApart.cpp
+
+longestRepeatingCharacter: longestRepeatingCharacter.o
+	g++ $(FLAGS) longestRepeatingCharacter.o -o longestRepeatingCharacter
+
+longestRepeatingCharacter.o: longestRepeatingCharacter.cpp
+	g++ $(FLAGS) -c longestRepeatingCharacter.cpp
+
+
 # make clean - remove .o files and the executable file.
 # You can modify it to remove whatever.
 clean:
-	rm -f *.o multithread
+	rm -f *.o powFunction oneEditApart longestRepeatingCharacter
