@@ -1,4 +1,5 @@
-// Zheng Hao Tan
+// Name: Zheng Hao Tan
+// Email: tanzhao@umich.edu
 // Date: 12/31/2013
 
 // Question:
@@ -10,8 +11,8 @@
 // Output 1 if possible and 0 if not 
 
 // Test cases: 
-// 1) n=47 ==> possible, output = 1 
-// 2) n=7 ===> not possible, output = 0
+// 1) n = 47 ==> possible, output = 1 
+// 2) n = 7 ===> not possible, output = 0
 
 #include <iostream>
 using namespace std;
