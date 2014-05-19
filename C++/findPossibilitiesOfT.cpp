@@ -19,8 +19,17 @@
 // Assumptions: 1.	The numbers that we are going to take the sum of must always be
 //					more than 0. If this is false, we will get an infinite amount of
 //					possibilities.
+// 				2.  The combinations that we will eventually find will consists
+//					of numbers <= T. This will solidify our statement on the numbers
+//					being positive.
+
+// Approaches:	1.  One of the ways that we can use to solve this problem is to 
+//					go for a knapsack approach, and we can start by adding to a 
+//					temporary sum until we reach our target. 
+//				2.	We can also trade memory for time by using dynamic programming.
 
 #include <iostream>
+#include <vector> // for dynamic programming.
 using namespace std;
 
 // Prototype.
