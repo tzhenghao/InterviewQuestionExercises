@@ -59,6 +59,12 @@ findDuplicateParenthesis: findDuplicateParenthesis.o
 findDuplicateParenthesis.o: findDuplicateParenthesis.cpp
 	g++ $(FLAGS) -c findDuplicateParenthesis.cpp
 
+replaceArray: replaceArray.o
+	g++ $(FLAGS) replaceArray.o -o replaceArray
+
+replaceArray.o: replaceArray.cpp
+	g++ $(FLAGS) -c replaceArray.cpp
+
 # make clean - remove .o files and the executable file.
 # You can modify it to remove whatever.
 clean:
