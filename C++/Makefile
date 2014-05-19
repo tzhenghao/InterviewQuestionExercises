@@ -47,6 +47,17 @@ longestRepeatingCharacter: longestRepeatingCharacter.o
 longestRepeatingCharacter.o: longestRepeatingCharacter.cpp
 	g++ $(FLAGS) -c longestRepeatingCharacter.cpp
 
+surroundedByX: surroundedByX.o
+	g++ $(FLAGS) surroundedByX.o -o surroundedByX
+
+surroundedByX.o: surroundedByX.cpp
+	g++ $(FLAGS) -c surroundedByX.cpp
+
+findDuplicateParenthesis: findDuplicateParenthesis.o
+	g++ $(FLAGS) findDuplicateParenthesis.o -o findDuplicateParenthesis
+
+findDuplicateParenthesis.o: findDuplicateParenthesis.cpp
+	g++ $(FLAGS) -c findDuplicateParenthesis.cpp
 
 # make clean - remove .o files and the executable file.
 # You can modify it to remove whatever.
