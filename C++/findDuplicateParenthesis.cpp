@@ -1,7 +1,6 @@
-// Zheng Hao Tan
+// Name: Zheng Hao Tan
 // Email: tanzhao@umich.edu
 // Date: 3/5/2014
-
 
 // Question: Give an algorithm for finding duplicate parenthesis
 //			 in an expression.

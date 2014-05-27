@@ -1,4 +1,5 @@
-// Zheng Hao Tan
+// Name: Zheng Hao Tan
+// Email: tanzhao@umich.edu
 // Date: April 26, 2014
 
 // This program returns the lowest common subsequence of two given strings.
@@ -14,6 +15,7 @@ unsigned int longest_common_subsequence(string X, string Y) {
 
 	// Initialization.
 	vector<vector<unsigned>> C(xLen+1, vector<unsigned>(yLen+1, 0));
+
 	for (unsigned i=0; i<=xLen; ++i) C[i][0] = 0;
 	for (unsigned j=0; j<=yLen; ++j) C[0][j] = 0;
 

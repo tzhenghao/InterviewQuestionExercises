@@ -1,3 +1,7 @@
+# Name: Zheng Hao Tan
+# Email: tanzhao@umich.edu
+# Date: May 27, 2014
+
 #Enables C++11
 PATH := /usr/um/gcc-4.7.0/bin:$(PATH)
 LD_LIBRARY_PATH := /usr/um/gcc-4.7.0/lib64

@@ -1,4 +1,5 @@
-// Zheng Hao Tan
+// Name: Zheng Hao Tan
+// Email: tanzhao@umich.edu
 // Date: April 26, 2014
 
 // This program will take in two strings and determines the maximum substring
